@@ -1,7 +1,7 @@
 "use client"
 
 import { useState } from "react"
-import { AppBar, Box, CssBaseline, Drawer, IconButton, Toolbar, Typography, useMediaQuery } from "@mui/material"
+import { AppBar, Box, CssBaseline, Drawer, IconButton, Toolbar, Typography } from "@mui/material"
 import { MenuIcon } from "lucide-react"
 import Sidebar from "@/components/ECOMMERCE/SEPERATE/sidbar"
 import ECommerce from "@/components/ECOMMERCE/COMPLETE/completeall"

@@ -20,7 +20,6 @@ import {
   Home,
   KeyboardArrowRight,
   KeyboardArrowDown,
-  ChevronLeft,
   Email,
   Chat,
   CalendarMonth,
@@ -118,7 +117,7 @@ const SectionTitle = ({ title }: SectionTitleProps) => (
 )
 
 export default function Sidebar() {
-  const [collapsed, setCollapsed] = useState(false)
+  const [collapsed] = useState(false)
   const [openSections, setOpenSections] = useState<Record<string, boolean>>({})
 
   const toggleSection = (section: string) => {
